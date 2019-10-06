@@ -1,5 +1,13 @@
 # Usage
 
+- プロジェクトの作成
+
 ```
-$ ./run.bat
+$ ./CreateProject.bat
+```
+
+- シミュレーションの実行
+
+```
+$ ./RunSimulation.bat
 ```
