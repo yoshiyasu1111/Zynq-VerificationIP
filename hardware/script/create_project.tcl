@@ -38,7 +38,7 @@ add_files -norecurse ./proj/vip.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.
 
 # Add TestBench file
 set_property SOURCE_SET sources_1 [get_filesets sim_1]
-add_files -fileset sim_1 -norecurse ./src/sim/tb.sv
+add_files -fileset sim_1 -norecurse ./testbench/tb.sv
 
 update_compile_order -fileset sim_1
 

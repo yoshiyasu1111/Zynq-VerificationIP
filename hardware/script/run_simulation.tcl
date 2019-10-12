@@ -1,5 +1,5 @@
 # Set project path
-set project_directory ./proj/[file dirname [info script]]
+set project_directory ./proj
 set project_name "vip"
 
 # Open project
@@ -33,5 +33,9 @@ source tb.tcl
 
 add_wave {{/tb/zynq_sys/design_1_i/myip_0/inst/myip_v1_0_M_AXI_inst}} 
 run all
+
+file mkdir ../../../../../testbench/log
+file copy -force dramDump.txt ../../../../../testbench/log/
+file delete dramDump.txt
 
 start_gui

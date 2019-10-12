@@ -22,7 +22,7 @@ $ ./CreateProject.bat
 $ ./RunSimulation.bat
 ```
 
-テストベンチtb.svでダンプしたDRAMのデータが`.\proj\vip.sim\sim_1\behav\xsim\dramDump.txt`に作成されます。
+テストベンチtb.svでダンプしたDRAMのデータが`.\testbench\log\dramDump.txt`に作成されます。
 
 ```
 0000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010
